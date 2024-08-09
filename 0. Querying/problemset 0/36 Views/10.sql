@@ -1,0 +1,1 @@
+SELECT SUM(DISTINCT "japanese_title") AS "summation" FROM "views" WHERE "english_title" LIKE '%THE%' ORDER BY "brightness" DESC;
