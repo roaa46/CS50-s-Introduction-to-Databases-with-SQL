@@ -1,7 +1,4 @@
 # From the Deep
-
-In this problem, you'll write freeform responses to the questions provided in the specification.
-
 ## Random Partitioning
 
 **Random partitioning** involves dividing data into segments randomly without considering any specific attribute or criteria. This method ensures that the data is spread evenly across different partitions, which can help in balancing the load when querying. However, it might lead to inefficiencies in querying because related data might end up in different partitions, requiring additional resources to combine results from multiple partitions.
